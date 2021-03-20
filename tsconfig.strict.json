@@ -1,11 +1,5 @@
 {
   "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "noEmit": true,
-    "strictNullChecks": true,
-    "strict": true,
-    "noUnusedLocals": true
-  },
   "files": [
     "./src/AuthType.ts",
     "./src/Bindings/ReactBindingHandler.ts",
