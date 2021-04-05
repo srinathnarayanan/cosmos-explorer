@@ -371,7 +371,7 @@ export default class QueryTab extends TabsBase implements ViewModels.WaitsForTem
     }
 
     const aggregatedMetrics: DataModels.QueryMetrics = this.aggregatedQueryMetrics();
-    metricsMap.forEach((partitionKeyRangeId: string, queryMetrics: DataModels.QueryMetrics) => {
+    metricsMap.forEach((queryMetrics) => {
       if (queryMetrics) {
         aggregatedMetrics.documentLoadTime =
           queryMetrics.documentLoadTime &&
@@ -529,7 +529,7 @@ export default class QueryTab extends TabsBase implements ViewModels.WaitsForTem
         "Document write time (ms)",
       ].join(",") + "\n";
     csvData = csvData + columnHeaders;
-    queryMetrics.forEach((partitionKeyRangeId: string, queryMetric: DataModels.QueryMetrics) => {
+    queryMetrics.forEach((queryMetric, partitionKeyRangeId) => {
       const partitionKeyRangeData: string =
         [
           partitionKeyRangeId,

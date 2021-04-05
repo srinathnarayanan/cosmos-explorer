@@ -321,9 +321,7 @@ exports[`SettingsComponent renders 1`] = `
                     "keyspaceHasSharedOffer": [Function],
                     "keyspaceId": [Function],
                     "keyspaceIds": [Function],
-                    "keyspaceOffers": HashMap {
-                      "container": Object {},
-                    },
+                    "keyspaceOffers": Map {},
                     "keyspaceThroughput": [Function],
                     "maxThroughputRU": [Function],
                     "minThroughputRU": [Function],
@@ -564,9 +562,7 @@ exports[`SettingsComponent renders 1`] = `
                   "keyspaceHasSharedOffer": [Function],
                   "keyspaceId": [Function],
                   "keyspaceIds": [Function],
-                  "keyspaceOffers": HashMap {
-                    "container": Object {},
-                  },
+                  "keyspaceOffers": Map {},
                   "keyspaceThroughput": [Function],
                   "maxThroughputRU": [Function],
                   "minThroughputRU": [Function],
@@ -771,21 +767,9 @@ exports[`SettingsComponent renders 1`] = `
                 "resourceTree": ResourceTreeAdapter {
                   "container": [Circular],
                   "copyNotebook": [Function],
-                  "databaseCollectionIdMap": ArrayHashMap {
-                    "store": HashMap {
-                      "container": Object {},
-                    },
-                  },
-                  "koSubsCollectionIdMap": ArrayHashMap {
-                    "store": HashMap {
-                      "container": Object {},
-                    },
-                  },
-                  "koSubsDatabaseIdMap": ArrayHashMap {
-                    "store": HashMap {
-                      "container": Object {},
-                    },
-                  },
+                  "databaseCollectionIdMap": Map {},
+                  "koSubsCollectionIdMap": Map {},
+                  "koSubsDatabaseIdMap": Map {},
                   "parameters": [Function],
                 },
                 "resourceTreeForResourceToken": ResourceTreeAdapterForResourceToken {
@@ -1158,9 +1142,7 @@ exports[`SettingsComponent renders 1`] = `
                   "keyspaceHasSharedOffer": [Function],
                   "keyspaceId": [Function],
                   "keyspaceIds": [Function],
-                  "keyspaceOffers": HashMap {
-                    "container": Object {},
-                  },
+                  "keyspaceOffers": Map {},
                   "keyspaceThroughput": [Function],
                   "maxThroughputRU": [Function],
                   "minThroughputRU": [Function],
@@ -1401,9 +1383,7 @@ exports[`SettingsComponent renders 1`] = `
                 "keyspaceHasSharedOffer": [Function],
                 "keyspaceId": [Function],
                 "keyspaceIds": [Function],
-                "keyspaceOffers": HashMap {
-                  "container": Object {},
-                },
+                "keyspaceOffers": Map {},
                 "keyspaceThroughput": [Function],
                 "maxThroughputRU": [Function],
                 "minThroughputRU": [Function],
@@ -1608,21 +1588,9 @@ exports[`SettingsComponent renders 1`] = `
               "resourceTree": ResourceTreeAdapter {
                 "container": [Circular],
                 "copyNotebook": [Function],
-                "databaseCollectionIdMap": ArrayHashMap {
-                  "store": HashMap {
-                    "container": Object {},
-                  },
-                },
-                "koSubsCollectionIdMap": ArrayHashMap {
-                  "store": HashMap {
-                    "container": Object {},
-                  },
-                },
-                "koSubsDatabaseIdMap": ArrayHashMap {
-                  "store": HashMap {
-                    "container": Object {},
-                  },
-                },
+                "databaseCollectionIdMap": Map {},
+                "koSubsCollectionIdMap": Map {},
+                "koSubsDatabaseIdMap": Map {},
                 "parameters": [Function],
               },
               "resourceTreeForResourceToken": ResourceTreeAdapterForResourceToken {
@@ -2008,9 +1976,7 @@ exports[`SettingsComponent renders 1`] = `
                     "keyspaceHasSharedOffer": [Function],
                     "keyspaceId": [Function],
                     "keyspaceIds": [Function],
-                    "keyspaceOffers": HashMap {
-                      "container": Object {},
-                    },
+                    "keyspaceOffers": Map {},
                     "keyspaceThroughput": [Function],
                     "maxThroughputRU": [Function],
                     "minThroughputRU": [Function],
@@ -2251,9 +2217,7 @@ exports[`SettingsComponent renders 1`] = `
                   "keyspaceHasSharedOffer": [Function],
                   "keyspaceId": [Function],
                   "keyspaceIds": [Function],
-                  "keyspaceOffers": HashMap {
-                    "container": Object {},
-                  },
+                  "keyspaceOffers": Map {},
                   "keyspaceThroughput": [Function],
                   "maxThroughputRU": [Function],
                   "minThroughputRU": [Function],
@@ -2458,21 +2422,9 @@ exports[`SettingsComponent renders 1`] = `
                 "resourceTree": ResourceTreeAdapter {
                   "container": [Circular],
                   "copyNotebook": [Function],
-                  "databaseCollectionIdMap": ArrayHashMap {
-                    "store": HashMap {
-                      "container": Object {},
-                    },
-                  },
-                  "koSubsCollectionIdMap": ArrayHashMap {
-                    "store": HashMap {
-                      "container": Object {},
-                    },
-                  },
-                  "koSubsDatabaseIdMap": ArrayHashMap {
-                    "store": HashMap {
-                      "container": Object {},
-                    },
-                  },
+                  "databaseCollectionIdMap": Map {},
+                  "koSubsCollectionIdMap": Map {},
+                  "koSubsDatabaseIdMap": Map {},
                   "parameters": [Function],
                 },
                 "resourceTreeForResourceToken": ResourceTreeAdapterForResourceToken {
@@ -2845,9 +2797,7 @@ exports[`SettingsComponent renders 1`] = `
                   "keyspaceHasSharedOffer": [Function],
                   "keyspaceId": [Function],
                   "keyspaceIds": [Function],
-                  "keyspaceOffers": HashMap {
-                    "container": Object {},
-                  },
+                  "keyspaceOffers": Map {},
                   "keyspaceThroughput": [Function],
                   "maxThroughputRU": [Function],
                   "minThroughputRU": [Function],
@@ -3088,9 +3038,7 @@ exports[`SettingsComponent renders 1`] = `
                 "keyspaceHasSharedOffer": [Function],
                 "keyspaceId": [Function],
                 "keyspaceIds": [Function],
-                "keyspaceOffers": HashMap {
-                  "container": Object {},
-                },
+                "keyspaceOffers": Map {},
                 "keyspaceThroughput": [Function],
                 "maxThroughputRU": [Function],
                 "minThroughputRU": [Function],
@@ -3295,21 +3243,9 @@ exports[`SettingsComponent renders 1`] = `
               "resourceTree": ResourceTreeAdapter {
                 "container": [Circular],
                 "copyNotebook": [Function],
-                "databaseCollectionIdMap": ArrayHashMap {
-                  "store": HashMap {
-                    "container": Object {},
-                  },
-                },
-                "koSubsCollectionIdMap": ArrayHashMap {
-                  "store": HashMap {
-                    "container": Object {},
-                  },
-                },
-                "koSubsDatabaseIdMap": ArrayHashMap {
-                  "store": HashMap {
-                    "container": Object {},
-                  },
-                },
+                "databaseCollectionIdMap": Map {},
+                "koSubsCollectionIdMap": Map {},
+                "koSubsDatabaseIdMap": Map {},
                 "parameters": [Function],
               },
               "resourceTreeForResourceToken": ResourceTreeAdapterForResourceToken {

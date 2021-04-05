@@ -23,7 +23,7 @@ describe("HashMap", () => {
     map.set("a", "123");
     map.set("b", "456");
 
-    expect(map.size()).toBe(2);
+    expect(map.size).toBe(2);
   });
 
   it("should be iterable", () => {
@@ -34,9 +34,10 @@ describe("HashMap", () => {
     map.set("d", 1000);
 
     let i = 0;
-    map.forEach((key: string, value: number) => {
+    for (const [key, value] of map) {
       i += value;
-    });
+    }
+
     expect(i).toBe(1111);
   });
 
@@ -55,7 +56,7 @@ describe("HashMap", () => {
     const map = new HashMap<number>();
     map.set("a", 1);
     map.clear();
-    expect(map.size()).toBe(0);
+    expect(map.size).toBe(0);
     expect(map.has("a")).toBe(false);
   });
 
@@ -63,8 +64,8 @@ describe("HashMap", () => {
     const map = new HashMap<number>();
     map.set("a", 1);
     map.set("b", 1);
-    expect(map.keys()).toEqual(["a", "b"]);
+    expect([...map.keys()]).toEqual(["a", "b"]);
     map.clear();
-    expect(map.keys().length).toBe(0);
+    expect([...map.keys()].length).toBe(0);
   });
 });
