@@ -68,7 +68,7 @@ export const UploadItemsPane: FunctionComponent<UploadItemsPaneProps> = ({
   };
 
   const genericPaneProps: GenericRightPaneProps = {
-    container: explorer,
+    expandConsole: () => explorer.expandConsole(),
     formError,
     formErrorDetail,
     id: "uploaditemspane",

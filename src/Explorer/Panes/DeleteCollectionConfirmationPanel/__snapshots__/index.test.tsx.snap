@@ -1146,7 +1146,6 @@ exports[`Delete Collection Confirmation Pane submit() should call delete collect
                 <a
                   className="errorLink"
                   hidden={true}
-                  onClick={[Function]}
                   role="link"
                 >
                   More details

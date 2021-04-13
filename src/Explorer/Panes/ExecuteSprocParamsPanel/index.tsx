@@ -2,13 +2,12 @@ import { useBoolean } from "@uifabric/react-hooks";
 import { IDropdownOption, IImageProps, Image, Stack, Text } from "office-ui-fabric-react";
 import React, { FunctionComponent, useState } from "react";
 import AddPropertyIcon from "../../../../images/Add-property.svg";
-import Explorer from "../../Explorer";
 import StoredProcedure from "../../Tree/StoredProcedure";
 import { GenericRightPaneComponent, GenericRightPaneProps } from "../GenericRightPaneComponent";
 import { InputParameter } from "./InputParameter";
 
 interface ExecuteSprocParamsPaneProps {
-  explorer: Explorer;
+  expandConsole: () => void;
   storedProcedure: StoredProcedure;
   closePanel: () => void;
 }
@@ -24,7 +23,7 @@ interface UnwrappedExecuteSprocParam {
 }
 
 export const ExecuteSprocParamsPanel: FunctionComponent<ExecuteSprocParamsPaneProps> = ({
-  explorer,
+  expandConsole,
   storedProcedure,
   closePanel,
 }: ExecuteSprocParamsPaneProps): JSX.Element => {
@@ -40,7 +39,7 @@ export const ExecuteSprocParamsPanel: FunctionComponent<ExecuteSprocParamsPanePr
   };
 
   const genericPaneProps: GenericRightPaneProps = {
-    container: explorer,
+    expandConsole,
     formError: formError,
     formErrorDetail: formErrorsDetails,
     id: "executesprocparamspane",

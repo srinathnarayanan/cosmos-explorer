@@ -1132,7 +1132,6 @@ exports[`Table query select Panel should render Default properly 1`] = `
                 <a
                   className="errorLink"
                   hidden={true}
-                  onClick={[Function]}
                   role="link"
                 >
                   More details

@@ -3,9 +3,8 @@ import React from "react";
 import { SettingsPane } from ".";
 import { DatabaseAccount } from "../../../Contracts/DataModels";
 import { updateUserContext } from "../../../UserContext";
-import Explorer from "../../Explorer";
 const props = {
-  explorer: new Explorer(),
+  expandConsole: (): void => undefined,
   closePanel: (): void => undefined,
 };
 describe("Settings Pane", () => {

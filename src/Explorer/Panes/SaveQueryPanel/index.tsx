@@ -29,7 +29,7 @@ export const SaveQueryPanel: FunctionComponent<SaveQueryPanelProps> = ({
   const title = "Save Query";
   const { canSaveQueries } = explorer;
   const genericPaneProps: GenericRightPaneProps = {
-    container: explorer,
+    expandConsole: () => explorer.expandConsole(),
     formError: formError,
     formErrorDetail: formErrorsDetails,
     id: "saveQueryPane",
